@@ -5,7 +5,7 @@
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbhob/nest-middlewares.git"
+    "url": "git+https://github.com/aml360/nest-middlewares-amli"
   },
   "keywords": [
     "nest",
@@ -16,9 +16,9 @@
   "author": "Wilson Hobbs <wilsonhobbs1@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbhob/nest-middlewares/issues"
+    "url": "https://github.com/aml360/nest-middlewares-amli/issues"
   },
-  "homepage": "https://github.com/wbhob/nest-middlewares#readme",
+  "homepage": "https://github.com/aml360/nest-middlewares-amli#readme",
   "peerDependencies": {
     "@nestjs/common": "^6.0.0"
   },

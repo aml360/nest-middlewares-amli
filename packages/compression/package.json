@@ -1,11 +1,11 @@
 {
-  "name": "@nest-middlewares/compression",
-  "version": "6.0.0",
+  "name": "@aml360/nestjs-compression",
+  "version": "6.0.102",
   "description": "NestJS Middleware for Compression",
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbhob/nest-middlewares.git"
+    "url": "git+https://github.com/aml360/nest-middlewares-amli"
   },
   "keywords": [
     "nest",
@@ -13,23 +13,23 @@
     "express",
     "node"
   ],
-  "author": "Wilson Hobbs <wilsonhobbs1@gmail.com>",
+  "author": "Adrian Molina <aml360esp@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "private": false,
   "bugs": {
-    "url": "https://github.com/wbhob/nest-middlewares/issues"
+    "url": "https://github.com/aml360/nest-middlewares-amli"
   },
-  "homepage": "https://github.com/wbhob/nest-middlewares#readme",
+  "homepage": "https://github.com/aml360/nest-middlewares-amli#readme",
   "dependencies": {
-    "@types/compression": "0.0.35",
+    "@types/compression": "1.7.0",
     "@types/express": "^4.16.0",
-    "@types/express-serve-static-core": "^4.16.0",
-    "compression": "^1.7.1"
+    "@types/express-serve-static-core": "^4.17.19",
+    "compression": "^1.7.4"
   },
   "peerDependencies": {
-    "@nestjs/common": "^6.0.0"
+    "@nestjs/common": "^7.6.15"
   }
 }

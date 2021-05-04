@@ -1,21 +1,21 @@
 # Nest Middlewares - Compression
 
-[![Coverage Status](https://coveralls.io/repos/github/wbhob/nest-middlewares/badge.svg?branch=master)](https://coveralls.io/github/wbhob/nest-middlewares?branch=master)
-
 This is the Nest Middleware wrapper around [compression](http://www.npmjs.com/package/compression).
 
 ## Installation
 
-`@nest-middlewares/compression` is available from NPM. You can install it with this command:
+`@aml360/nestjs-compression` is available from NPM. You can install it with this command:
 
 ```sh
-npm install --save @nest-middlewares/compression
+npm install @aml360/nestjs-compression
+# OR
+yarn add @aml360/nestjs-compression
 ```
 
 ## Usage
 
 ```ts
-import { CompressionMiddleware } from '@nest-middlewares/compression';
+import { CompressionMiddleware } from '@aml360/nestjs-compression';
 
 @Module(...)
 export class MyModule {

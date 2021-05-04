@@ -1,5 +1,5 @@
-<a name="5.0.2"></a>
-## [5.0.2](https://github.com/wbhob/nest-middlewares/compare/v6.0.1...v5.0.2) (2019-09-30)
+<a name="6.0.101"></a>
+## [6.0.101](https://github.com/wbhob/nest-middlewares/compare/v6.0.1...v6.0.101) (2021-05-03)
 
 
 
@@ -9,7 +9,7 @@
 
 ### Bug Fixes
 
-* **express-session:** fixes a typo in README ([#24](https://github.com/wbhob/nest-middlewares/issues/24)) ([ffc7087](https://github.com/wbhob/nest-middlewares/commit/ffc7087))
+* **express-session:** fixes a typo in README ([#24](https://github.com/aml360/nest-middlewares-amli/issues/24)) ([ffc7087](https://github.com/wbhob/nest-middlewares/commit/ffc7087))
 * missing the else case ([868ddd1](https://github.com/wbhob/nest-middlewares/commit/868ddd1))
 
 

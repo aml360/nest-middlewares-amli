@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "preserveConstEnums": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "target": "ES2020",
+    "typeRoots": ["node_modules/@types", "types"],
+    "lib": ["es7"]
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
