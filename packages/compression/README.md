@@ -21,8 +21,8 @@ import { CompressionMiddleware } from '@aml360/nestjs-compression';
 export class MyModule {
     configure(consumer: MiddlewaresConsumer) {
         // IMPORTANT! Call Middleware.configure BEFORE using it for routes
-        HelmetMiddleware.configure( /* options as per helmet docs */ )
-        consumer.apply(CompressionMiddleware).forRoutes( /* your routes */ );
+        CompressionMiddleware.configure({/* options as per helmet docs */ });
+        consumer.apply(CompressionMiddleware).forRoutes( /* your routes as objects*/ );
     }
 }
 ```
